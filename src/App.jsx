@@ -1,12 +1,11 @@
 import './App.css'
-import Nav from './components/UI/Nav'
+import Layout from './components/UI/Layout'
 
 function App() {
 
   return (
-    <>
-     <Nav />
-    </>
+    <Layout>
+    </Layout>
   )
 }
 
