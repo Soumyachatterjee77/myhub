@@ -1,5 +1,6 @@
 import NavBar from "./NavBar"
 import PageFooter from "./PageFooter";
+import PropTypes from 'prop-types';
 
 const Layout = ({children}) => {
   return (
@@ -12,5 +13,9 @@ const Layout = ({children}) => {
     </>
   );
 };
+
+Layout.propTypes = {
+  children: PropTypes.any
+}
 
 export default Layout;
